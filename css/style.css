@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	padding: 0;
 	margin: 0;
 	background: #f3f3f3;
@@ -44,6 +47,7 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
+    height: 0 auto;
 }
 
 nav {
@@ -51,12 +55,17 @@ nav {
 	margin-top: 40px;
 }
 
+
+
 .logo {
-   
+   position: relative;
 }
 
 .logo img {
-	
+	max-width: 90px; 
+	position: absolute;
+	right: 47%;
+	top: 20px;
 }
 
 .menu {
@@ -77,6 +86,15 @@ nav {
 	font-size: 14px;
 }
 
+.support {
+	top: 10px;
+}
+
+.number {
+	font-weight: 600;
+	margin-left: 30px;
+}
+
 .title__first {
 	font-size: 36px;
 	color: #0d3351;
@@ -84,11 +102,13 @@ nav {
 	margin-top: 125px;
 }
 
-h1{
+h1{ font-family: 'Roboto Slab', serif;
 	font-size: 100px;
 	color: #0d3351;
 	text-align: center;
 	margin: 15px;
+	text-transform: uppercase;
+	font-weight: 400;
 }
 
 .button{
@@ -104,11 +124,47 @@ h1{
 	margin-top: 30px;
 }
 
+.snake{
+	position: relative;
+}
+
+.snake img{
+	position: absolute;
+	max-height: 270px;
+	right: 48%;
+	top: 20px;
+}
+
 footer {
 	width: 100%;
 	height: 130px;
 	background: #fff;
+	display: block;
 }
+
+.about {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.about ul {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.about li {
+	float: left;
+	display: block;
+	margin-bottom: 15px;	
+}
+
+.about li a {
+	color: #0d3351;
+	text-decoration: none;}
+
+/*
 
 .social {
 	display: flex;
@@ -118,8 +174,7 @@ footer {
 .social img {
 	margin-left: 10px;
 }
-
-
+*/
 /* Footer
 -----------------------------------------------------------------------------*/
 
