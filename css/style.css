@@ -187,7 +187,6 @@ footer {
 	text-align: center;
 	font-size: 14px;
     margin-bottom: 50px;
-
 }
 
 .tour{
@@ -199,16 +198,93 @@ footer {
 }
 
 .tour div {
-	background-color: #c5cfe1;
-	border: 1px solid green;
-	border-radius: 5px;
-	padding: 8px 15px;
+	
 	font-size: 18px;
 }
 
 .tour div:nth-child(1) {
 	grid-row-start: 1;
 	grid-row-end: 3;
+}
+
+.tour1 {
+	background: url(../img/Anapa.jpg) no-repeat center top;
+	background-color: #fff;
+}
+
+.tour2 {
+	background: url(../img/yacht.jpg) no-repeat center top;
+	background-color: #fff;
+}
+
+.tour3 {
+	background: url(../img/Gelend.jpg) no-repeat center top;
+	background-color: #fff;
+}
+
+.tour4 {
+	background: url(../img/novoros.jpg) no-repeat center top;
+	background-color: #fff;
+}
+
+.tour5 {
+	background: url(../img/abray.jpg) no-repeat center top;
+	background-color: #fff;
+}
+
+.label {
+	position: absolute;
+    margin-left: 415px;
+    top: 895px;
+}
+
+.label3 {
+	position: absolute;
+    margin-left: 415px;
+    top: 1218px;  
+}
+
+.tour_description1{	
+	margin-top: 460px;	
+    margin-left: 40px;
+}
+
+.tour_description23{	
+	margin-top: 140px;
+	margin-left: 40px;
+}
+
+.tour_description45{	
+	margin-top: 240px;
+	margin-left: 40px;
+}
+
+.tour h4 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: #00a2dd;
+	font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.tour p {
+	font-size: 14px; 
+	color: #0d3351;
+	line-height: 20px;
+}
+
+.price {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	color: #0d3351;
+}
+
+.price_cancellation {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: #7a8f9f;
+    margin-left: 40px;
+	text-decoration: line-through;
 }
 
 /*
