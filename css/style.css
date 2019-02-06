@@ -15,14 +15,6 @@ body {
 	clear: both;
 }
 
-.wrapper {
-	min-width: 320px;
-	margin: 0 auto;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-}
-
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
@@ -83,8 +75,6 @@ nav {
 
 .number {
 	font-weight: 600;
-	margin-left: 30px;
-
 }
 
 .polygon {
@@ -320,3 +310,23 @@ footer {
 .support_city{
 	font-size: 14px;
 }
+
+
+/* Медиа */
+
+@media screen and (max-width: 1146px) {
+	.header {
+	background: url(../img/bg_tablet.jpg) no-repeat center top / cover;
+	padding-bottom: 195px;
+	width: 100%;
+	
+}
+
+	.about_company{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	}
+}
+
+
+
